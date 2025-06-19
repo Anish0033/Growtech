@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indoor Plants | GROWTECH</title>
+    <meta name="description" content="Shop our collection of premium indoor plants for your home or office">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header (Same as index.html) -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                <h1 class="text-2xl font-bold text-gray-800">GROWTECH</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-green-600">Home</a>
+                <a href="indoor.html" class="text-green-600 font-medium">Indoor Plants</a>
+                <a href="outdoor.html" class="text-gray-600 hover:text-green-600">Outdoor Plants</a>
+                <a href="tools.html" class="text-gray-600 hover:text-green-600">Tools</a>
+                <a href="fertilizers.html" class="text-gray-600 hover:text-green-600">Fertilizers</a>
+                <a href="subscription.html" class="text-gray-600 hover:text-green-600">Subscription</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-600">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-shopping-cart text-gray-600 text-xl cursor-pointer"></i>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-green-600 text-white py-12">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">Indoor Plants</h1>
+            <p class="text-lg">Bring nature indoors with our carefully selected plants</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="text-gray-600">Showing 12 products</span>
+                </div>
+                <div class="flex space-x-4">
+                    <div>
+                        <label for="sort" class="block text-sm font-medium text-gray-700 mb-1">Sort by</label>
+                        <select id="sort" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Most Popular</option>
+                            <option>Newest</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter" class="block text-sm font-medium text-gray-700 mb-1">Filter</label>
+                        <select id="filter" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+                            <option>All Plants</option>
+                            <option>Low Light</option>
+                            <option>Medium Light</option>
+                            <option>Bright Light</option>
+                            <option>Pet Friendly</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\snake plant.jpg" 
+                             alt="Snake Plant" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">NEW</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Snake Plant</h3>
+                        <p class="text-gray-600 text-sm mb-2">Low maintenance, purifies air</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹249</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\monstera deliciosa pot.jpg" 
+                             alt="Monstera Deliciosa" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Monstera Deliciosa</h3>
+                        <p class="text-gray-600 text-sm mb-2">Tropical foliage, statement plant</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹349</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\fiddle leaf fig pot.jpg" 
+                             alt="Fiddle Leaf Fig" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">SALE</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Fiddle Leaf Fig</h3>
+                        <p class="text-gray-600 text-sm mb-2">Bright light, dramatic leaves</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹399 <span class="text-gray-400 line-through text-sm"> ₹499</span></span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\zz plant.jpg" 
+                             alt="ZZ Plant" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">ZZ Plant</h3>
+                        <p class="text-gray-600 text-sm mb-2">Drought tolerant, low light</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹279</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\Golden Pothos.jpg" 
+                             alt="Pothos" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">PET FRIENDLY</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Golden Pothos</h3>
+                        <p class="text-gray-600 text-sm mb-2">Trailing vine, easy to grow</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹199</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\Peace Lily.jpg" 
+                             alt="Peace Lily" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Peace Lily</h3>
+                        <p class="text-gray-600 text-sm mb-2">Blooms white flowers, purifies air</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹299</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\Rubber Plant.jpg" 
+                             alt="Rubber Plant" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Rubber Plant</h3>
+                        <p class="text-gray-600 text-sm mb-2">Glossy leaves, statement piece</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹329</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="C:\Users\singh\New folder\pcl\growtech pcl\images\Spider Plant.jpg" 
+                             alt="Spider Plant" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">PET FRIENDLY</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-1">Spider Plant</h3>
+                        <p class="text-gray-600 text-sm mb-2">Produces baby plants, easy care</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">₹229</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="mt-12 flex justify-center">
+                <nav class="flex items-center space-x-2">
+                    <button class="px-3 py-1 rounded border border-gray-300 text-gray-600 hover:bg-gray-100">Previous</button>
+                    <button class="px-3 py-1 rounded bg-green-600 text-white">1</button>
+                    <button class="px-3 py-1 rounded border border-gray-300 text-gray-600 hover:bg-gray-100">2</button>
+                    <button class="px-3 py-1 rounded border border-gray-300 text-gray-600 hover:bg-gray-100">3</button>
+                    <button class="px-3 py-1 rounded border border-gray-300 text-gray-600 hover:bg-gray-100">Next</button>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                        <h3 class="text-2xl font-bold">GROWTECH</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Your one-stop shop for all gardening needs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="indoor.html" class="text-gray-400 hover:text-white">Indoor Plants</a></li>
+                        <li><a href="outdoor.html" class="text-gray-400 hover:text-white">Outdoor Plants</a></li>
+                        <li><a href="tools.html" class="text-gray-400 hover:text-white">Gardening Tools</a></li>
+                        <li><a href="fertilizers.html" class="text-gray-400 hover:text-white">Fertilizers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-envelope text-green-500"></i>
+                            <span class="text-gray-400">support@growtech.com</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-phone text-green-500"></i>
+                            <span class="text-gray-400">+123-456-7890</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-map-marker-alt text-green-500"></i>
+                            <span class="text-gray-400">123 Garden St, Greenville</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 GROWTECH. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple filter functionality
+        document.getElementById('sort').addEventListener('change', function() {
+            console.log('Sorting by:', this.value);
+            // In a real implementation, this would sort the products
+        });
+
+        document.getElementById('filter').addEventListener('change', function() {
+            console.log('Filtering by:', this.value);
+            // In a real implementation, this would filter the products
+        });
+    </script>
+</body>
+</html>

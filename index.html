@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROWTECH - Premium Plants & Gardening Supplies</title>
+    <meta name="description" content="Shop indoor/outdoor plants, gardening tools, fertilizers and subscribe for exclusive offers">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: url('https://images.pexels.com/photos/1593017/pexels-photo-1593017.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                <h1 class="text-2xl font-bold text-gray-800">GROWTECH</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-green-600 font-medium">Home</a>
+                <a href="indoor.html" class="text-gray-600 hover:text-green-600">Indoor Plants</a>
+                <a href="outdoor.html" class="text-gray-600 hover:text-green-600">Outdoor Plants</a>
+                <a href="tools.html" class="text-gray-600 hover:text-green-600">Tools</a>
+                <a href="fertilizers.html" class="text-gray-600 hover:text-green-600">Fertilizers</a>
+                <a href="subscription.html" class="text-gray-600 hover:text-green-600">Subscription</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-600">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-shopping-cart text-gray-600 text-xl cursor-pointer"></i>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white py-12">
+        <div class="container mx-auto px-4 text-white">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Grow Your Green Space</h2>
+            <p class="text-xl mb-8 max-w-lg">To plant a garden is to belive in tomorrow</p>
+            <div class="flex space-x-4">
+                <a href="indoor.html" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium">Shop Now</a>
+                <a href="subscription.html" class="bg-white hover:bg-gray-100 text-green-600 px-6 py-3 rounded-lg font-medium">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Categories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Indoor Plants -->
+                <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-home text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Indoor Plants</h3>
+                    <p class="text-gray-600 text-center">Perfect for your home or office spaces</p>
+                    <a href="indoor.html" class="block text-center text-green-600 font-medium mt-4">Explore →</a>
+                </div>
+
+                <!-- Outdoor Plants -->
+                <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-tree text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Outdoor Plants</h3>
+                    <p class="text-gray-600 text-center">Enhance your garden's beauty</p>
+                    <a href="outdoor.html" class="block text-center text-green-600 font-medium mt-4">Explore →</a>
+                </div>
+
+                <!-- Tools -->
+                <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-tools text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Gardening Tools</h3>
+                    <p class="text-gray-600 text-center">Quality tools for every gardener</p>
+                    <a href="tools.html" class="block text-center text-green-600 font-medium mt-4">Explore →</a>
+                </div>
+
+                <!-- Fertilizers -->
+                <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-flask text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Fertilizers</h3>
+                    <p class="text-gray-600 text-center">Nutrients for healthy plant growth</p>
+                    <a href="fertilizers.html" class="block text-center text-green-600 font-medium mt-4">Explore →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription CTA -->
+    <section class="py-16 bg-green-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-6">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Join Our Green Club</h2>
+                        <p class="text-gray-600 mb-6">Get monthly plant care tips + 10% off your first order</p>
+                        <form id="subscriptionForm" class="space-y-4">
+                            <div>
+                                <input type="email" id="email" placeholder="Your email address" 
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                            </div>
+                            <button type="submit" 
+                                class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg font-medium transition duration-300">
+                                Subscribe Now
+                            </button>
+                        </form>
+                    </div>
+                    <div class="hidden md:block md:w-1/2 bg-cover bg-center" 
+                        style="background-image: url('https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                        <h3 class="text-2xl font-bold">GROWTECH</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Your one-stop shop for all gardening needs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="indoor.html" class="text-gray-400 hover:text-white">Indoor Plants</a></li>
+                        <li><a href="outdoor.html" class="text-gray-400 hover:text-white">Outdoor Plants</a></li>
+                        <li><a href="tools.html" class="text-gray-400 hover:text-white">Gardening Tools</a></li>
+                        <li><a href="fertilizers.html" class="text-gray-400 hover:text-white">Fertilizers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-envelope text-green-500"></i>
+                            <span class="text-gray-400">support@growtech.com</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-phone text-green-500"></i>
+                            <span class="text-gray-400">+123-456-7890</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-map-marker-alt text-green-500"></i>
+                            <span class="text-gray-400">123 Garden St, Greenville</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 GROWTECH. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form validation
+        document.getElementById('subscriptionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            if (!email.includes('@') || !email.includes('.')) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            alert('Thank you for subscribing! You will receive a confirmation email shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
