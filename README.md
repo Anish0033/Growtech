@@ -13,7 +13,7 @@ Growtech is a responsive and visually appealing e-commerce website created to pr
 🛠️ Technologies Used:
 HTML
 
-CSS
+Tailwind CSS
 
 Responsive Design Techniques
 
